@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="414" height="444" viewBox="0 0 414 444">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="328" height="279" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Component_31_2" data-name="Component 31 – 2" transform="translate(1)">
+    <text id="Challenge" transform="translate(130 438)" fill="#fff" font-size="30" font-family="Lato-Medium, Lato" font-weight="500"><tspan x="-130" y="0">Challenge</tspan></text>
+    <g id="Group_158" data-name="Group 158" opacity="0">
+      <rect id="Rectangle_5" data-name="Rectangle 5" width="412" height="388" rx="10" transform="translate(1)" fill="#f2f2f2"/>
+      <text id="Challenge_list" data-name="Challenge list" transform="translate(31 50)" fill="#232323" font-size="20" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="0" y="0">Challenge list</tspan></text>
+      <g id="Scroll_Group_2" data-name="Scroll Group 2" transform="translate(31 79)" clip-path="url(#clip-path)" style="mix-blend-mode: normal;isolation: isolate">
+        <g id="Component_30_1" data-name="Component 30 – 1">
+          <text id="_1._Walk_bike_or_use_public_transportation_instead_of_driving." data-name="1. Walk, bike, or use public transportation
+instead of driving." transform="translate(0 18)" fill="#b9b9b9" font-size="18" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="0" y="0">1. </tspan><tspan y="0" font-family="Lato-Regular, Lato" font-weight="400">Walk, bike, or use public transportation</tspan><tspan font-family="Lato-Regular, Lato" font-weight="400"><tspan x="0" y="23">instead of driving.</tspan></tspan></text>
+        </g>
+        <g id="Component_30_2" data-name="Component 30 – 2" transform="translate(0 60)">
+          <text id="_2._Bring_your_own_reusable_bags_when_shopping_for_groceries_or_other_items." data-name="2. Bring your own reusable bags when
+shopping for groceries or other items." transform="translate(0 18)" fill="#b9b9b9" font-size="18" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="0" y="0">2. </tspan><tspan y="0" font-family="Lato-Regular, Lato" font-weight="400">Bring your own reusable bags when</tspan><tspan font-family="Lato-Regular, Lato" font-weight="400"><tspan x="0" y="23">shopping for groceries or other items.</tspan></tspan></text>
+        </g>
+        <g id="Component_30_3" data-name="Component 30 – 3" transform="translate(0 120)">
+          <text id="_3._Use_natural_light_during_the_day_instead_of_relying_on_artificial_lighting." data-name="3. Use natural light during the day instead
+of relying on artificial lighting." transform="translate(0 18)" fill="#b9b9b9" font-size="18" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="0" y="0">3. </tspan><tspan y="0" font-family="Lato-Regular, Lato" font-weight="400">Use natural light during the day instead</tspan><tspan font-family="Lato-Regular, Lato" font-weight="400"><tspan x="0" y="23">of relying on artificial lighting.</tspan></tspan></text>
+        </g>
+        <g id="Component_30_4" data-name="Component 30 – 4" transform="translate(0 180)">
+          <text id="_4._Take_shorter_showers_to_reduce_water_consumption." data-name="4. Take shorter showers to reduce water
+consumption." transform="translate(0 18)" fill="#b9b9b9" font-size="18" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="0" y="0">4. </tspan><tspan y="0" font-family="Lato-Regular, Lato" font-weight="400">Take shorter showers to reduce water</tspan><tspan font-family="Lato-Regular, Lato" font-weight="400"><tspan x="0" y="23">consumption.</tspan></tspan></text>
+        </g>
+        <g id="Component_30_5" data-name="Component 30 – 5" transform="translate(0 240)">
+          <text id="_5._Keep_a_tally_of_your_daily_waste_to_raise_awareness_of_your_impact_and_find_ways_to_reduce_it." data-name="5. Keep a tally of your daily waste to raise
+awareness of your impact and find ways
+to reduce it." transform="translate(0 18)" fill="#b9b9b9" font-size="18" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="0" y="0">5. </tspan><tspan y="0" font-family="Lato-Regular, Lato" font-weight="400">Keep a tally of your daily waste to raise</tspan><tspan font-family="Lato-Regular, Lato" font-weight="400"><tspan x="0" y="23">awareness of your impact and find ways</tspan><tspan x="0" y="46">to reduce it.</tspan></tspan></text>
+        </g>
+        <g id="Component_30_6" data-name="Component 30 – 6" transform="translate(0 323)">
+          <text id="_6._Turn_off_the_tap_while_brushing_your_teeth_or_washing_your_face." data-name="6. Turn off the tap while brushing your
+teeth or washing your face." transform="translate(0 18)" fill="#b9b9b9" font-size="18" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="0" y="0">6. </tspan><tspan y="0" font-family="Lato-Regular, Lato" font-weight="400">Turn off the tap while brushing your</tspan><tspan font-family="Lato-Regular, Lato" font-weight="400"><tspan x="0" y="23">teeth or washing your face.</tspan></tspan></text>
+        </g>
+      </g>
+      <rect id="Rectangle_47" data-name="Rectangle 47" width="10" height="279" rx="5" transform="translate(388 79)" fill="#fff"/>
+      <rect id="Rectangle_48" data-name="Rectangle 48" width="10" height="53" rx="5" transform="translate(388 89)" fill="#9d9d9d"/>
+    </g>
+  </g>
+</svg>

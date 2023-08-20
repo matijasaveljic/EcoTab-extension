@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EcoTab</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-SHDuiwVTTzSvzUPQ14pL2As9SWsEccKGdU9nemZlMPA/41elg41ufaVwjwPQH3U9yE+dq0okbYSj7jPNcG6g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <img src="images/Group-161.svg" alt="Logo" id="logo" />
+
+    <!--"Show Weather" in the top right corner -->
+    <button id="top-right-button">
+      <img src="images/eye-open-1.png" alt="eye" />
+    </button>
+
+    <div id="weather-container">
+      <span id="temperature"></span>
+      <span id="city-name"></span>
+    </div>
+
+    <!-- Add the search bar section -->
+    <section class="search-section">
+      <form id="search-form" class="search-form">
+        <!-- Add the search icon using an image -->
+        <img
+          src="images/search.png"
+          alt="Search Icon"
+          class="search-icon-img"
+        />
+        <input
+          type="search"
+          class="search-input"
+          id="search-input"
+          name="search"
+          placeholder="Search"
+        />
+        <!-- Add the search icon using Font Awesome -->
+        <i class="search-icon fas fa-search"></i>
+      </form>
+    </section>
+
+    <div id="bg-container"></div>
+    <div id="quote-container" onclick="changeText()">
+      Bees are vital pollinators and are responsible for pollinating
+      approximately one-third of the food we eat.
+    </div>
+    <button id="change-quote-button" onclick="changeText()">
+      <img src="images/shuflle-2.png" alt="Icon" />
+    </button>
+
+    <!--"calendar" in the bottom right corner -->
+    <button id="calendarButton">Calendar</button>
+    <div id="calendarPopup" class="hidden">
+      <!-- Add arrow images for navigation -->
+      <div id="calendarTitle"></div>
+      <div id="calendar"></div>
+    </div>
+    <button id="challengeButton">Challenge</button>
+    <div id="challengePopup" class="popup">
+      <div class="challenge-title"><h7>Challenge List</h7></div>
+      <div class="challenge-container">
+        <ol id="challengeList">
+          <li class="challenge" onclick="toggleChallengePopup(1)">
+            Challenge 1
+          </li>
+          <li class="challenge" onclick="toggleChallengePopup(2)">
+            Challenge 2
+          </li>
+          <li class="challenge" onclick="toggleChallengePopup(3)">
+            Challenge 3
+          </li>
+          <li class="challenge" onclick="toggleChallengePopup(4)">
+            Challenge 4
+          </li>
+          <li class="challenge" onclick="toggleChallengePopup(5)">
+            Challenge 5
+          </li>
+          <li class="challenge" onclick="toggleChallengePopup(6)">
+            Challenge 6
+          </li>
+          <li class="challenge" onclick="toggleChallengePopup(7)">
+            Challenge 7
+          </li>
+          <li class="challenge" onclick="toggleChallengePopup(8)">
+            Challenge 8
+          </li>
+          <li class="challenge" onclick="toggleChallengePopup(9)">
+            Challenge 9
+          </li>
+          <li class="challenge" onclick="toggleChallengePopup(10)">
+            Challenge 10
+          </li>
+        </ol>
+      </div>
+    </div>
+    <div class="popup-2" id="challengePopup-1">
+      <button class="back-dugme">
+        <img src="images/arrow-back-new.png" alt="Icon" />
+      </button>
+      <div class="challenge-text">
+        This is the description of the challenge number 1...
+      </div>
+      <label for="challenge-length" class="label"
+        >Enter challenge length here:</label
+      >
+      <input
+        type="number"
+        class="challenge-length-input"
+        id="userInput1"
+        placeholder="In days"
+        min="1"
+        max="31"
+      />
+
+      <div class="buttons-container1" id="buttons-container1"></div>
+    </div>
+
+    <div class="popup-2" id="challengePopup-2">
+      <button class="back-dugme">
+        <img src="images/arrow-back-new.png" alt="Icon" />
+      </button>
+      <div class="challenge-text">
+        This is the description of the challenge number 2...
+      </div>
+      <label for="challenge-length" class="label"
+        >Enter challenge length here:</label
+      >
+      <input
+        type="number"
+        class="challenge-length-input"
+        id="userInput2"
+        placeholder="In days"
+        min="1"
+        max="31"
+      />
+
+      <div class="buttons-container2" id="buttons-container2"></div>
+    </div>
+
+    <div class="popup-2" id="challengePopup-3">
+      <button class="back-dugme">
+        <img src="images/arrow-back-new.png" alt="Icon" />
+      </button>
+      <div class="challenge-text">
+        This is the description of the challenge number 3...
+      </div>
+      <label for="challenge-length" class="label"
+        >Enter challenge length here:</label
+      >
+      <input
+        type="number"
+        class="challenge-length-input"
+        id="userInput3"
+        placeholder="In days"
+        min="1"
+        max="31"
+      />
+
+      <div class="buttons-container3" id="buttons-container3"></div>
+    </div>
+
+    <div class="popup-2" id="challengePopup-4">
+      <button class="back-dugme">
+        <img src="images/arrow-back-new.png" alt="Icon" />
+      </button>
+      <div class="challenge-text">
+        This is the description of the challenge number 4...
+      </div>
+      <label for="challenge-length" class="label"
+        >Enter challenge length here:</label
+      >
+      <input
+        type="number"
+        class="challenge-length-input"
+        id="userInput4"
+        placeholder="In days"
+        min="1"
+        max="31"
+      />
+
+      <div class="buttons-container4" id="buttons-container4"></div>
+    </div>
+
+    <div class="popup-2" id="challengePopup-5">
+      <button class="back-dugme">
+        <img src="images/arrow-back-new.png" alt="Icon" />
+      </button>
+      <div class="challenge-text">
+        This is the description of the challenge number 5...
+      </div>
+      <label for="challenge-length" class="label"
+        >Enter challenge length here:</label
+      >
+      <input
+        type="number"
+        class="challenge-length-input"
+        id="userInput5"
+        placeholder="In days"
+        min="1"
+        max="31"
+      />
+
+      <div class="buttons-container5" id="buttons-container5"></div>
+    </div>
+
+    <div class="popup-2" id="challengePopup-6">
+      <button class="back-dugme">
+        <img src="images/arrow-back-new.png" alt="Icon" />
+      </button>
+      <div class="challenge-text">
+        This is the description of the challenge number 6...
+      </div>
+      <label for="challenge-length" class="label"
+        >Enter challenge length here:</label
+      >
+      <input
+        type="number"
+        class="challenge-length-input"
+        id="userInput6"
+        placeholder="In days"
+        min="1"
+        max="31"
+      />
+
+      <div class="buttons-container6" id="buttons-container6"></div>
+    </div>
+
+    <div class="popup-2" id="challengePopup-7">
+      <button class="back-dugme">
+        <img src="images/arrow-back-new.png" alt="Icon" />
+      </button>
+      <div class="challenge-text">
+        This is the description of the challenge number 7...
+      </div>
+      <label for="challenge-length" class="label"
+        >Enter challenge length here:</label
+      >
+      <input
+        type="number"
+        class="challenge-length-input"
+        id="userInput7"
+        placeholder="In days"
+        min="1"
+        max="31"
+      />
+
+      <div class="buttons-container7" id="buttons-container7"></div>
+    </div>
+
+    <div class="popup-2" id="challengePopup-8">
+      <button class="back-dugme">
+        <img src="images/arrow-back-new.png" alt="Icon" />
+      </button>
+      <div class="challenge-text">
+        This is the description of the challenge number 8...
+      </div>
+      <label for="challenge-length" class="label"
+        >Enter challenge length here:</label
+      >
+      <input
+        type="number"
+        class="challenge-length-input"
+        id="userInput8"
+        placeholder="In days"
+        min="1"
+        max="31"
+      />
+
+      <div class="buttons-container8" id="buttons-container8"></div>
+    </div>
+
+    <div class="popup-2" id="challengePopup-9">
+      <button class="back-dugme">
+        <img src="images/arrow-back-new.png" alt="Icon" />
+      </button>
+      <div class="challenge-text">
+        This is the description of the challenge number 9...
+      </div>
+      <label for="challenge-length" class="label"
+        >Enter challenge length here:</label
+      >
+      <input
+        type="number"
+        class="challenge-length-input"
+        id="userInput9"
+        placeholder="In days"
+        min="1"
+        max="31"
+      />
+
+      <div class="buttons-container9" id="buttons-container9"></div>
+    </div>
+
+    <div class="popup-2" id="challengePopup-10">
+      <button class="back-dugme">
+        <img src="images/arrow-back-new.png" alt="Icon" />
+      </button>
+      <div class="challenge-text">
+        This is the description of the challenge number 10...
+      </div>
+      <label for="challenge-length" class="label"
+        >Enter challenge length here:</label
+      >
+      <input
+        type="number"
+        class="challenge-length-input"
+        id="userInput10"
+        placeholder="In days"
+        min="1"
+        max="31"
+      />
+
+      <div class="buttons-container10" id="buttons-container10"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
